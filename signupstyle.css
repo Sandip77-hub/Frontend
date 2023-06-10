@@ -1,0 +1,30 @@
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: darkgray;}
+* {box-sizing: border-box}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 2%;
+    padding-bottom: 1.5%;
+}
+
+.parg{
+    text-align: center;
+    color: black;
+}
+.signup-form{
+    margin-left: 5%;
+    margin-top: 5%;
+    border-width: 50%;
+    border: none;
+    display: inline-block;
+    writing-mode: horizontal-tb;
+    border-radius: 5%;
+}
+.already{
+    margin-left: 5%;
+    margin-top: 5%;
+
+}

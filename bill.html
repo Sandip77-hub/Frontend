@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bill.css">
+    <title>Bill</title>
+</head>
+<body>
+    <h3 class="top">Bill History</h3>
+
+  <table class="bill-history">
+    <thead>
+      <tr>
+        <th class="date">Date</th>
+        <th class="price">Total Price</th>
+        <th class="paid">Is Paid</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Dynamically generated rows will be inserted here -->
+    </tbody>
+  </table>
+
+  <div class="payment-section">
+    <h2>Make Payment</h2>
+    <label for="bill-number">Bill Number:</label>
+    <input type="text" id="bill-number" required>
+
+    <button id="payment-button" onclick="makePayment()">Pay Bill</button>
+  </div>
+  <script src="bill.js"></script>
+    
+</body>
+</html>

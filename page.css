@@ -1,0 +1,14 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;}
+    * {box-sizing: border-box}
+.signup-btn{
+    margin-left: 90%;
+    background-color: dodgerblue;
+    margin-top: 5%;
+
+}
+.login-container{
+    margin-left: 15%;
+    color: black;
+    text-decoration: solid;
+}
